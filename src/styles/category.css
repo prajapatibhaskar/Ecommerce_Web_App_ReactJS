@@ -1,0 +1,36 @@
+.category-card{
+    background-color: #dedede;
+    color: rgb(57, 57, 57);
+    margin: 5px;
+    flex-grow: 1;
+    border-radius: 10px;
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-card:hover {
+    box-shadow: 0 2px 8px 0 rgba(6, 33, 82, 0.355);
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #e9e9e9;
+  }
+
+
+.category-section{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    height: 50px;
+    justify-content: space-evenly;
+}
+
+.category-card-selected{
+    background-color: white;
+    border: 2px solid grey;
+    font-weight: bold;
+}

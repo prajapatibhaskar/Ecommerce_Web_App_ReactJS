@@ -1,0 +1,95 @@
+.unavailable{
+    color: rgb(189, 81, 81);
+    font-weight: 600;
+}
+
+.login-page{
+    border: 2px solid #1976d2;
+    border-radius: 5px;
+    padding: 60px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.signup-page{
+    border: 2px solid #1976d2;
+    border-radius: 5px;
+    padding: 60px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.greeting{
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.login-button{
+    padding: 10px;
+}
+.signup-button{
+    padding: 10px;
+}
+
+.login-page{
+    display: flex;
+    flex-direction: column;
+}
+.signup-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-page-header{
+    font-weight: bold;
+    font-size: x-large;
+}
+.signup-page-header{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.username{
+    padding: 5px;
+    padding-top: 15px;
+}
+
+.password{
+    padding: 5px;
+}
+
+.login-button{
+    padding: 5px;
+}
+
+.login-to-signup-link{
+    display: flex;
+    flex-direction: row;
+}
+.signup-to-login-link{
+    display: flex;
+    flex-direction: row;
+}
+
+.signup-link{
+    padding-left: 10px;
+}
+.login-link{
+    padding-left: 10px;
+}
