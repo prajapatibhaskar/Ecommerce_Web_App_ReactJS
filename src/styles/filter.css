@@ -1,0 +1,30 @@
+.filter-section{
+    background-color: rgb(242, 242, 242);
+    height: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.rating-filter-section{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.rating-filter{
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.rating-filter:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
+    transition: 0.3s;
+}
+
+.rating-selected{
+    background-color: whitesmoke;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}

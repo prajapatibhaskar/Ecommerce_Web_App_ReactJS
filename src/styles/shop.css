@@ -1,0 +1,30 @@
+.main-bar{
+    background-color :rgb(229, 229, 229);
+    padding: 10px;
+    display: flex;
+    
+  justify-content: flex-end;
+}
+
+.shop{
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.shop-section-2{
+    display: flex;
+    align-items: stretch;
+}
+
+
+.item-section-container{
+    width: 80%;
+    height: 100%;
+    float: right;
+}
+
+.filter-section-container{
+    width: 20%;
+    float: left;
+    
+}
